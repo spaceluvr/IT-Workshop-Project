@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    </style>
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <script src = "game.js"></script>
+</head>
+<body style="background-color: yellow;">
+    <p style="margin-left: 22%; float: left; font-size:40px; margin-top:2%">USER</p>
+    <P style="margin-left: 69%; float:left; margin-top:-6%; font-size: 40px">COMPUTER</P>
+    <div class="b"></div>
+    <div class="uc">
+        <input type="button" class="urock" id="ur" onclick="cmove(); umoveuro(); rg();"/>
+        <input type="button" class="upaper" id="up" onclick="cmove(); umoveupa(); pg();"/>
+        <input type="button" class="uscissors" id="us" onclick="cmove(); umoveusc();sg();"/>
+        <img src="rock.png" id="uro" class="uhid">
+        <img src="paper.png" id="upa" class="uhid">
+        <img src="scissors.png" id="usc" class="uhid">
+
+        <input type="button" class="crock" disabled>
+        <input type="button" class="cpaper" disabled>
+        <input type="button" class="cscissors" disabled>
+        <img src="rock.png" id="cro" class="chid">
+        <img src="paper.png" id="cpa" class="chid">
+        <img src="scissors.png" id="csc" class="chid">
+    </div>
+</body>
+</html>

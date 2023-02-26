@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        #mouse:hover{
+            cursor:pointer;
+            transform: scale(1.2);
+        }
+
+        a {
+            color: rgb(223, 254, 21);
+            text-decoration: none;
+        }
+
+        a:hover{
+            cursor:pointer;
+            color:rgb(86, 248, 37)
+        }
+    </style> 
+    <script src="game.js"></script>
+    <link rel="stylesheet" type="text/css" href="design.css">
+</head>
+<body style="background-color: rgb(242, 226, 229); margin:0">
+    <div class="top">
+        <p class="nav"><a href="rules.html">Rules</a></p>
+        <p class="nav"><a href="about.html">About</a></p>
+        <p class="head"><i>Game Stop</i></p>
+    </div>
+
+    <div class="bot1">
+        <input type="button" onclick="h()" id="mouse" class="b1"/>
+        <div class="h1" style="font-size:17px; padding-top: 0.5%;font-family:Georgia, 'Times New Roman', Times, serif;"><center>Find The Missing Object<br><br>Do you consider yourself to have a keen eye ? Well test your observational skills by playing this game and trying to find objects hidden in plain sight</center></div>
+        <input type="button" id="mouse" class="b2" onclick="ro()"/>
+        <div class="h2" style="font-size:18px; padding-top: 1%;font-family:Georgia, 'Times New Roman', Times, serif;"><center>Rock, Paper, Scissors<br><br>Relive your childhood with the computerised version of this classic game. Be careful though, your chances of winning might be limited.....</center></div>
+        <input type="button" id="mouse" class="b3" onclick="q()"/>
+        <div class="h2" style="font-size:18px; padding-top: 0.5%; font-family:Georgia, 'Times New Roman', Times, serif;;"><center>Quizzzz<br><br>Think you're very witty and can answer any question ? Try your hand at these collection of questions and check for yourself if you're as smart as you claim to be</center></div>
+    </div>
+</body>
+</html>

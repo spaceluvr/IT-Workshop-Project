@@ -1,0 +1,466 @@
+.top {
+    width:100%; 
+    height:300px; 
+    background-image: url(header.jpeg);
+}
+
+.nav{
+    float: right;
+    position:relative;
+    text-align: right;
+    padding-right:5%;
+    margin-top: 0%;
+    top: 5%;
+    right:1%;
+    color:rgb(223, 254, 21);
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size:40px;
+}
+
+.head {
+    position: relative;
+    text-align:center;
+    margin-top:0%;
+    top:31%;
+    left:11.25%;
+    color:rgb(223, 254, 21);
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size:90px;  
+}
+
+.bot1{
+    position:relative; 
+    width:100%;
+    background-color: rgb(242, 226, 229); 
+    height: 600px;
+}
+
+.r {
+    width:100%; 
+    height:100px; 
+    background-color: rgb(12, 48, 146);
+}
+
+.bot2{
+    position:relative; 
+    justify-content: space-between;
+    width:100%;
+    background-color:  rgb(242, 226, 229);
+    height: 600px;
+}
+
+.h{
+    position:relative;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(223, 254, 21);
+    top: 20%;
+
+}
+
+.b1 {
+    background-image: url(glass.png); 
+    position:absolute; 
+    top:30%; 
+    right:69.5%; 
+    width:180px; 
+    height:180px; 
+    background-size:180px 180px;
+}
+
+.b2 {
+    background-image: url(rock.jpeg);
+    position:absolute; 
+    top:30%; 
+    right:44.5%; 
+    width:180px;
+    height:180px;
+    background-size:180px 180px;
+}
+
+.b3 {
+    background-image: url(quiz.png);
+    position:absolute; 
+    top:30%; 
+    right:19.5%; 
+    width:180px;
+    height:180px;
+    background-size:180px 180px;
+}
+
+.play {
+    width:360px; 
+    height:180px; 
+    background-color: rgb(240, 109, 240); 
+    margin-top:24%; 
+    margin-left:37%; 
+    text-align:center; 
+    border-radius:10px; 
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.p {
+    width:480px; 
+    height:240px; 
+    background-color: rgb(240, 109, 240); 
+    margin-top:22%; 
+    margin-left:33%; 
+    text-align:center; 
+    border-radius:10px; 
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.co {
+    background-image:url(c.jpg); 
+    width:180px; 
+    height:180px; 
+    background-size:180px 180px; 
+    margin-top:auto;
+    margin-left:auto;
+    border-radius:150px;
+}   
+.first{
+    margin-top: 10%;
+}
+
+.c{
+    padding-top:23%;
+    padding-left:44%;
+}
+
+.t{
+    position:absolute;
+    width:120px;
+    height:70px;
+    margin-left:65%;
+    margin-bottom:800%;
+    margin-top:0%;
+    padding-top:0.75%;
+    background-color:rgb(219, 168, 85);
+    font-size: 30px;
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.s{
+    width:50px;
+    height:40px;
+    background-color: rgb(219, 168, 85);
+    background-size: 50px 40px;
+}
+
+.ter{
+    position:absolute;
+    width:300px;
+    height:90px;
+    margin-left:39%;
+    margin-bottom:800%;
+    margin-top:0%;
+    padding-top:0.75%;
+    background-color:rgb(219, 168, 85);
+    font-size: 30px;
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/*.Cter{
+    position:relative;
+    width:150px;
+    height:90px;
+    margin-right:80%;
+    margin-bottom:800%;
+    margin-top:0%;
+    padding-top:0.75%;
+    background-color:rgb(219, 168, 85);
+    font-size: 30px;
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    float:left;
+}*/
+
+.q {
+    width:665px; 
+    height:180px; 
+    background-color: #b98d34; 
+    margin-top:21%; 
+    margin-left:27%; 
+    text-align:center; 
+    border-radius:10px; 
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lu {
+    float: left;
+    width: 325px; 
+    height:40px; 
+    line-height: 35px;
+    background-color: #b98d34; 
+    margin-top:2%; 
+    margin-left:27%; 
+    text-align:left; 
+    font-size: 20px;
+    border-radius:10px; 
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ru {
+    float: left;
+    width: 325px; 
+    height:40px; 
+    line-height: 35px;
+    background-color: #b98d34; 
+    margin-top:2%; 
+    margin-left:1%; 
+    text-align:left; 
+    font-size: 20px;
+    border-radius:10px; 
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.con{
+    display: flex;
+}
+
+/*.u {
+    border-right: 5px solid black;
+    height: 600px;
+    position: absolute;
+    left:50%;
+    top: 0%;
+}*/
+
+.b {
+    border-left: 5px solid black;
+    height: 100%;
+    position: absolute;
+    left:50%;
+    top: 0%;
+}
+
+.urock{
+    background-image: url(rock.png); 
+    position:absolute; 
+    top:20%; 
+    right:85%; 
+    width:180px; 
+    height:180px; 
+    background-size:180px 180px;
+}
+
+.upaper{
+    background-image: url(paper.png); 
+    position:absolute; 
+    top:45%; 
+    right:85%; 
+    width:180px; 
+    height:180px; 
+    background-size:180px 180px;
+}
+
+.uscissors{
+    background-image: url(scissors.png); 
+    position:absolute; 
+    top:70%; 
+    right:85%; 
+    width:180px; 
+    height:180px; 
+    background-size:180px 180px;
+}
+
+.crock{
+    background-image: url(rock.png); 
+    position:absolute; 
+    top:20%; 
+    left:85%; 
+    width:180px; 
+    height:180px; 
+    background-size:180px 180px;
+}
+
+.cpaper{
+    background-image: url(paper.png); 
+    position:absolute; 
+    top:45%; 
+    left:85%; 
+    width:180px; 
+    height:180px; 
+    background-size:180px 180px;
+}
+
+.cscissors{
+    background-image: url(scissors.png); 
+    position:absolute; 
+    top:70%; 
+    left:85%; 
+    width:180px; 
+    height:180px; 
+    background-size:180px 180px;
+}
+
+.crock:hover, .urock:hover, .cpaper:hover, .upaper:hover, .cscissors:hover, .uscissors:hover{
+    cursor:pointer;
+    transform: scale(1.2);
+}
+
+.uhid{
+    position:absolute; 
+    top:45%; 
+    right:53%; 
+    width:180px; 
+    height:180px; 
+    background-size:180px 180px;
+    visibility:hidden;
+}
+
+.chid{
+    position:absolute; 
+    top:45%; 
+    left:53%; 
+    width:180px; 
+    height:180px; 
+    background-size:180px 180px;
+    visibility:hidden;
+}
+
+.h1 {
+    display: none;
+}
+
+.h2 {
+    display: none;
+}
+
+.h3 {
+    display: none;
+}
+
+.b1:hover + .h1 {
+    display: block;
+    position:absolute;
+    top: 40%;
+    left: 20%;
+    background-color: rgb(244, 245, 255);
+    width: 180px;
+    height: 180px;
+    border: 3px solid black;
+    padding: 50px;
+    margin: 20px;
+    z-index: 1;
+}
+
+.b2:hover + .h2 {
+    display: block;
+    position:absolute;
+    top: 40%;
+    left: 44%;
+    background-color: rgb(244, 245, 255);
+    width: 180px;
+    height: 180px;
+    border: 3px solid black;
+    padding: 50px;
+    margin: 20px;
+    z-index: 1;
+}
+
+.b3:hover + .h2 {
+    display: block;
+    position:absolute;
+    top: 40%;
+    left: 70%;
+    background-color: rgb(244, 245, 255);
+    width: 180px;
+    height: 180px;
+    border: 3px solid black;
+    padding: 50px;
+    margin: 20px;
+    z-index: 1;
+}
+
+.g1{
+    width:100%;
+    height: 300px;
+}
+
+.g2{
+    width:100%;
+    height: 300px;
+}
+
+.g3{
+    width:100%;
+    height: 300px;
+}
+
+.space{
+    width:100%;
+    height: 50px;
+}
+
+.flex-container1{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgb(203, 206, 249);
+    margin-top: 5%;
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgb(203, 206, 249);
+    margin-top: 5%;
+    margin-left: 14%;
+}
+
+.i{
+    width:100%;
+    height:100px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgb(203, 206, 249);
+    margin-top: 2%;
+    margin-left: 22%;
+}
+
+.sep{
+    height:100px;
+    width:100%;
+}
+
+.flex-container3{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgb(203, 206, 249);
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.n1 {
+    float:right;
+    position:absolute;
+    margin-top: 3%;
+    margin-left: 30%;
+    font-size: 40px;
+}
+
+.n2 {
+    float:right;
+    position:absolute;
+    margin-top: 3%;
+    margin-left: 55%;
+    font-size: 40px;
+}
